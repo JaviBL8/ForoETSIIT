@@ -1,0 +1,75 @@
+body{
+    display: inherit;
+}
+
+.login{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.login{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+    width: 41%;
+    display: flex;
+    flex-flow: column;
+    padding-left: 16%;
+}
+
+form input{
+  width: auto;
+}
+
+.form-login{
+  min-width: 350px;
+    display: flex;
+    flex-flow: column wrap;
+    border-style:ridge;
+    height: fit-content;
+    width: 65%;
+    border: 2px solid #ff8e49;
+}
+
+.form-login input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-login h2{
+    border-bottom: 2px solid #ff8e49;
+    background-color: #ff8e49;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.form-login label{
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 1%;
+    margin-top: 6%;
+}
+
+.form-login button{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+#registrate{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .form-login {
+        width: 50%;
+        font-size: xx-large;
+    }
+  }

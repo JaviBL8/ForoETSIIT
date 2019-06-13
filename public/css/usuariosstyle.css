@@ -1,0 +1,130 @@
+main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-style:ridge;
+  border-color: #ff8e49;
+  border-width: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  min-width: 800px;
+}
+
+
+main .titulo h1{
+  align-items: center;
+  width: 100%;
+  margin-left: 10px;
+}
+
+main .titulo{
+  width: 100%;
+  margin-bottom: 0px;
+  height: auto;
+  display: flex;
+  background-color: #ff8e49;
+  align-items: center;
+}
+
+.mas{
+  text-align: right;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+main article{
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  border-bottom:2px solid #ff8e49;
+}
+
+.fotodelPerfil{
+  width: 20%;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-color: #ff8e49;
+}
+
+.fotoPerfil{
+  width:150px;
+  height:150px;
+  border-radius:150px;
+  border:2px solid #ff8e49;
+  margin-top: 10px;
+}
+
+.datosUser{
+  width: 68%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 39px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-color: #ff8e49;
+}
+
+.botones{
+  width: 10%;
+  float: left;
+  margin-top: 80px;
+}
+
+.botones button{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.datosUser div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.datosUser div label{
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.botones img{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.flecha1{
+  width:50px;
+  height:50px;
+  border-radius:150px;
+  border:2px solid #ff8e49;
+  margin-top: 10px;
+}
+
+.flecha2{
+  width:50px;
+  height:50px;
+  border-radius:150px;
+  border:2px solid #ff8e49;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.barra{
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+@media only screen and (max-width: 600px) {
+  footer {
+    position: absolute;
+  }
+}*/

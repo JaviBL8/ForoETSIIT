@@ -1,0 +1,74 @@
+.fotoPerfil{
+  width:150px;
+  height:150px;
+  border-radius:150px;
+  border:2px solid #ff8e49;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.registro{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-registro{
+    display: flex;
+    flex-flow: column;
+    border-style:ridge;
+    height: fit-content;
+    width: 40%;
+    border: 2px solid #ff8e49;
+}
+
+.form-registro p{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    border-bottom: 2px solid #ff8e49;
+}
+
+.form-registro input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+}
+
+.form-registro h2{
+    border-bottom: 2px solid #ff8e49;
+    margin: 0px;
+    text-align: center;
+    background-color: #ff8e49;
+}
+
+.form-registro label{
+    margin-right: auto;
+    margin-left: 10px;
+    margin-bottom: 1%;
+    margin-top: 6%;
+}
+
+.form-registro .button{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.editarBotones{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*
+@media only screen and (max-width: 600px) {
+    footer {
+      position: absolute;
+    }
+}*/

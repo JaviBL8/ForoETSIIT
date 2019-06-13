@@ -1,0 +1,58 @@
+.registro{
+  display: flex;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.registro p{
+    text-align: center;
+}
+
+.form-registro{
+    display: flex;
+    flex-flow: column;
+    border-style:ridge;
+    height: fit-content;
+    width: 30%;
+    border: 2px solid #ff8e49;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-registro input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+}
+
+.form-registro select{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+}
+
+.form-registro h2{
+    border-bottom: 2px solid #ff8e49;
+    margin: 0px;
+    text-align: center;
+    background-color: #ff8e49;
+}
+
+.form-registro label{
+    margin-right: auto;
+    margin-left: 10px;
+    margin-bottom: 1%;
+    margin-top: 6%;
+}
+
+.form-registro .button{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: fit-content;
+}

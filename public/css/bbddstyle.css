@@ -1,0 +1,18 @@
+.bbdd{
+    display: flex;
+    flex-flow: column;
+    background-color: #ff8e49;
+    border: 1px solid;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: fit-content;
+    padding: 15%;
+}
+
+.bbdd a{
+    margin-bottom: 12%;
+}
+
+footer{
+    position: absolute;
+}
